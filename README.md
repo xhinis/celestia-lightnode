@@ -69,7 +69,7 @@ Generate a key for the light node:
 ## Start the Light Node with the Key
 Start the light node using the created key:
 ```bash
-celestia light start --keyring-backend test --p2p.network celestia
+celestia light start --core.ip consensus.lunaroasis.net --keyring.keyname ENTER_THE_NAME_YOU_CHOSE_BEFORE
 ```
 
 This completes the setup of a Celestia light node with version v0.20.4. Ensure your node is running correctly and syncing with the network.
